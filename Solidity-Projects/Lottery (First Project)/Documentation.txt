@@ -1,0 +1,9 @@
+Points to make and note.
+
+Roles (# Manager , # Participant)
+
+1. Participants must have a wallet.
+2. Participants can buy multiple lottery for better chances of winning.
+3. Address of wallet of the participant will be registered when making an transaction. (2 eth, ticket).
+4. Manager will have full control over the system.
+5. Contract will reset after every round ( after declaring winner ).
