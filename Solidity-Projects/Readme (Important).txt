@@ -1,0 +1,1 @@
+All the projects are in the repository are for learning purposes. 

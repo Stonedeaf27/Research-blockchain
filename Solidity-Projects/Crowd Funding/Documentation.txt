@@ -1,0 +1,9 @@
+Points and Roles
+
+This project is based on crowd funding ( Taking eth from crowd and giving it to a company and then utilizing it for some task ).
+
+->  Manager (person asking for funds) -> Project ( executed on - Target, Deadline, minimum contribution )
+->  Crowd will give money to smart contract directly.
+->  Manager needs permission from crowd to utilize or take the funds for project. ( More than 50% of crowd needs to give permission ).
+->  If Condition is not met ( Target, Deadline, minimum contribution ) people can take their money back, only if the criteria or condition is not met.
+
