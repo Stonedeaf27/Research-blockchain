@@ -22,9 +22,12 @@ contract crowdFunding{      //defining variables
         require(msg.value >= minimumContribution,"Minimum contribution needed (1 ether)");
 
         if(contributors[msg.sender]==0){
-            numContributors++;      //diff contributor
+            numContributors++;      //diff contributor ( we will find perecntage on basis of diff contributor)
         }
         contributors[msg.sender]+= msg.value;
         raisedAmount+=msg.value;            //contribution is increased
+    }
+    function getContractBalance() public view returns(uint){    //to check balance in contract
+        return address(this).balance;   //returns balance
     }
 }
