@@ -30,4 +30,10 @@ contract crowdFunding{      //defining variables
     function getContractBalance() public view returns(uint){    //to check balance in contract
         return address(this).balance;   //returns balance
     }
+    function refund() public{
+        require(block.timestamp>deadline && raisedAmount<target, "Condition not met, Not eligible for Refund");
+        require(contributors[msg.sender]>0);
+        address payable user=payable(msg.sender);
+        user.transfer(contributors[msg.sender]);
+    }
 }
